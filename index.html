@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food website</title>
+    <link rel="stylesheet" href="food.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+              <h1  style="font-size: 30PX; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">HEALTHY FOOD</h1>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+                <a href="login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="div1"><center><h1 style="font-size: 50PX; font-weight: 500; margin-top:14px;">OUR SERVICES</h1></center></div>
+    <div class="div2"> <img src="indianfood.jpg" alt="">
+    <center> <h1>INDIAN FOODS</h1></center>
+    <BUtton>BUY NOW</BUtton>
+    </div>
+    <div class="div3"><img src="chinese.jpg" alt="">
+        <center> <h1>CHINESE FOODS</h1></center>
+        <BUtton>BUY NOW</BUtton>
+
+     </div>
+    <div class="div4"><img src="raheshtani.jpg" alt="">
+        <center> <h1>RAJASHTHANI FOODS</h1></center>
+        <BUtton>BUY NOW</BUtton>
+    </div>
+    <div class="div5"><img src="weasten.jpg" alt="">
+        <center> <h1>WESTERN FOODS</h1></center>
+        <BUtton>BUY NOW</BUtton></div>
+
+    <div class="div6"><img src="pizza.jpg" alt="">
+        <center> <h1>ITALIAN FOODS</h1></center>
+        <BUtton>BUY NOW</BUtton>
+    </div>
+    <div class="div7"><img src="north food.jpg" alt="">
+        <center> <h1> NORTH  INDIAN FOODS</h1></center>
+        <BUtton>BUY NOW</BUtton>
+    </div>
+     <hr>
+    </div>
+<script>
+    $(window).on('scroll',function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('white');
+        }else{
+            $('nav').removeClass('white');
+    })
+</script>
+<footer>
+   <center> <h1>About Us</h1></center>
+ <P>  
+    Healthy food refers to foods that provide essential nutrients, vitamins, and minerals while supporting overall well-being and maintaining a balanced diet.
+
+   </P>
+   <hr>
+   <ul class="footer">
+    
+   <span> 
+    <li><h1>company name</h1></li>
+    <li> <a href="https://www.zomato.com">Zomato</a></li> 
+    <li><a href="https://swiggy.com">Swiggy</a></li> 
+    <li><a href="https://dominos.com">Dominos</a></li>
+    <li><a href="https://mcdonalds.com">Mcdonalds</a></li>
+   </ul><span>
+   
+</footer>
+    </body>
+</html>
